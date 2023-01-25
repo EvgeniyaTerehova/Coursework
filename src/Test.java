@@ -5,7 +5,7 @@ public class Test {
     private static Employee[] employees = new Employee[10];
 
     public static void main(String[] args) {
-        Employee[] employees = new Employee[]{
+         employees = new Employee[]{
             new Employee("Егоров Кирил Александрович", 25_600, 1),
             new Employee("Строков Андрей Иванович", 24_600, 1),
             new Employee("Ким Анна Дмитриевна", 27_600, 2),
@@ -43,14 +43,14 @@ public class Test {
     public static void printFullName() {
         for (Employee employee : employees){
             if (employee != null){
-                System.out.println("Имена сотрудников: " + employee.getName());
+                System.out.println("Имя сотрудника: " + employee.getName());
             }
         }
     }
     public static void printEmployees(){
         for (Employee employee : employees) {
             if (employee != null) {
-                System.out.println("Сотрудники: " + Arrays.toString(employees));
+                System.out.println("Сотрудник: " + employee);
             }
         }
     }
