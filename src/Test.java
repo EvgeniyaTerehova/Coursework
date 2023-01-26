@@ -90,4 +90,7 @@ public class Test {
     }
 /** Подсчитать среднее значение зарплат*/
     public static float calculateAverageValueOfSalaryes(){return calculateTotalSalary() / Employee.getCounter();}
+
+    /** Исправленный код*/
 }
+
